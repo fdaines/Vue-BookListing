@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>{{ title }}</h1>
+    <h1>{{title}}</h1>
   </div>
 </template>
 
@@ -10,13 +10,13 @@ export default {
   data() {
     return {
       title: 'All Books'
-    }
+    };
   }
-}
+};
 </script>
 
 <style>
 h1, h2 {
-  font-weight: normal
+  font-weight: normal;
 }
 </style>
